@@ -1,3 +1,4 @@
 Better Implementation Plan:
 
-To improve the implementation, we can split the code into separate modules (e.g., bandit.py, experiment.py, and visualization.py). This design simplifies unit testing and maintenance, and makes the project more scalable and easier to debug.
+To improve the implementation, we can split the code into separate modules (e.g., bandit.py, experiment.py, and visualization.py). This structure makes the code easier to read, test, and maintain. It can simplify debugging and allow to reuse individual components in other projects.
+Also, a configuration file (e.g., config.py) can be added to store settings such as the number of trials, reward values, and logging options. This can be helpful for quickly changing the parameters without modifying the main code.
