@@ -30,7 +30,7 @@ These dependencies are listed in the requirements.txt file.
 ## How to Run
 
 - Clone this repo.
-- Install requirements (e.g., numpy, pandas, scipy, etc.).
+- Install requirements.
 - Run Bandit.py.
 
 
