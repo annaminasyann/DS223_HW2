@@ -5,7 +5,7 @@ This project simulates an A/B test using two algorithms:
 - **Epsilon-Greedy:** Chooses a random arm sometimes (with chance 1/t) and otherwise picks the best arm so far.
 - **Thompson Sampling:** Uses a probability model to choose an arm based on past rewards.
 
-We run 20,000 trials for four bandit arms with true rewards of 1, 2, 3, and 4.
+The code runs 20,000 trials for four bandit arms with true rewards of 1, 2, 3, and 4.
 
 ## What the Project Does
 
