@@ -16,9 +16,24 @@ We run 20,000 trials for four bandit arms with true rewards of 1, 2, 3, and 4.
   - `bandit_rewards_ThompsonSampling.csv`
   - `bandit_all_rewards.csv` (combined data)
 
-## How to Use
+## Requirements
 
-1. **Clone the Repository:**
-   ```bash
-   git clone <your-repository-link>
-   cd ABTesting_Bandits
+The project requires the following packages:
+- numpy
+- pandas
+- matplotlib
+- loguru (version 0.7.2)
+
+These dependencies are listed in the requirements.txt file.
+
+
+## How to Run
+
+- Clone this repo.
+- Install requirements (e.g., numpy, pandas, scipy, etc.).
+- Run Bandit.py.
+
+
+## Author
+
+Anna Minasyan
